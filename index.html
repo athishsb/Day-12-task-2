@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <table>
+            <th class="no">Name<span class="asterik">*</span></th>
+            <tr><td><input type="text"></td><td><input type="text"></td></tr>
+            <tr><td>First</td><td>Last</td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <th class="no">Email<span class="asterik">*</span></th>
+            <tr><td colspan="2"><input colspan="2" type="email" style="width: 350px;"></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <th class="no">Your Experience<span class="asterik">*</span></th>
+        </table>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+        <p id="p1">Overall, how would you rate you experience with us? </p>
+        <p id="p2">How satisfied are you with<span class="asterik">*</span></p>
+        <table class="new">
+            <tr>
+                <td></td><td class="centre">Very Unsatisfied</td><td class="centre">Unsatisfied</td><td class="centre">Neutral</td><td class="centre">Satisfied</td><td class="centre">Very Satisfied</td>
+            </tr>
+            <tr class="bg">
+                <td>Purchase</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Service</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr>
+            <tr class="bg">
+                <td>Company Overall</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <th colspan="2" class="no">How likely are you to<span class="asterik">*</span></th>
+            <tr>
+                <td></td><td class="centre">Very Unlikely</td><td class="centre">Unlikely</td><td class="centre">Neutral</td><td class="centre">Likely</td><td class="centre">Very Likely</td>
+            </tr>
+            <tr class="bg">
+                <td>Buy from us again</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Recommend our product to others</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr>
+            <tr class="bg">
+                <td>Recommend our company to others</td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td><td class="centre"><input type="radio"></td>
+            </tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+            <tr><th colspan="2">Additional comments or suggestions</th></tr>
+        </table>
+        <textarea name="comments" id="comment" cols="205" rows="5"></textarea><br>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>

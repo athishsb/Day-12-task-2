@@ -1,0 +1,50 @@
+.asterik{
+    color: red;
+}
+.no,td{
+    text-align: left;
+    font-family: Arial;
+    
+}
+.stars {
+    padding: 10px;
+}
+.stars i {
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.stars i.active {
+    color: #ecab80;
+}
+#p1{
+    font-size: larger;
+}
+#p2{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: x-large;
+}
+.bg{
+    background-color: #f1f1f1;
+}
+
+.new{
+    text-align: left;
+}
+.centre{
+    width:275px;
+    text-align: center;
+}
+td{
+    font-size: smaller;
+}
+table{
+    border: "1";
+    border-collapse: collapse;
+}
+#submit{
+    margin: 5px;
+    padding: 15px;
+}
